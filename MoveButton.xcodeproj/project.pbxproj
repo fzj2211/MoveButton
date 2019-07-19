@@ -15,6 +15,7 @@
 		BB0E6DBB22DE154F00811DE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0E6DBA22DE154F00811DE7 /* main.m */; };
 		BB0E6DC522DE154F00811DE7 /* MoveButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0E6DC422DE154F00811DE7 /* MoveButtonTests.m */; };
 		BB0E6DD022DE154F00811DE7 /* MoveButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0E6DCF22DE154F00811DE7 /* MoveButtonUITests.m */; };
+		BB0E6DDF22DE156900811DE7 /* IconButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0E6DDE22DE156900811DE7 /* IconButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BB0E6DCB22DE154F00811DE7 /* MoveButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0E6DCF22DE154F00811DE7 /* MoveButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveButtonUITests.m; sourceTree = "<group>"; };
 		BB0E6DD122DE154F00811DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB0E6DDD22DE156900811DE7 /* IconButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconButton.h; sourceTree = "<group>"; };
+		BB0E6DDE22DE156900811DE7 /* IconButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				BB0E6DAC22DE154E00811DE7 /* AppDelegate.m */,
 				BB0E6DAE22DE154E00811DE7 /* ViewController.h */,
 				BB0E6DAF22DE154E00811DE7 /* ViewController.m */,
+				BB0E6DDD22DE156900811DE7 /* IconButton.h */,
+				BB0E6DDE22DE156900811DE7 /* IconButton.m */,
 				BB0E6DB122DE154E00811DE7 /* Main.storyboard */,
 				BB0E6DB422DE154F00811DE7 /* Assets.xcassets */,
 				BB0E6DB622DE154F00811DE7 /* LaunchScreen.storyboard */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB0E6DDF22DE156900811DE7 /* IconButton.m in Sources */,
 				BB0E6DB022DE154E00811DE7 /* ViewController.m in Sources */,
 				BB0E6DBB22DE154F00811DE7 /* main.m in Sources */,
 				BB0E6DAD22DE154E00811DE7 /* AppDelegate.m in Sources */,
